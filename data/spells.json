@@ -8770,8 +8770,625 @@ var spelldata = {
 					"In addition, the first time you make a weapon attack on your turn before the spell ends, you make the attack roll with advantage, and your speed increases by 30 feet until the end of that turn.",
 					"This spell can be found in the Unearthed Arcana: Starter Spells"
 				]
-			}
+			},
+			{
+				"name": "Ablative Armor",
+                "source": "Eberron: Spells",
+				"level": "1",
+				"school": "A",
+				"time": "1 reaction",
+				"range": "Touch",
+				"components": "V, S",
+				"duration": "Instantaneous",
+				"classes": "Artificer (UA)",
+				"text": [
+					"A shimmering field of force energy glows forth from your armor and grants you resistance to bludgeoning, force, piercing, and slashing damage until the start of your next turn.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			},
+		{
+				"name": "Arcane Mark",
+		        "source": "Eberron: Spells",
+				"level": "0",
+				"school": "I",
+				"ritual": "YES",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V, S",
+				"duration": "Instantaneous",
+				"classes": "Artificer (UA)",
+				"text": [
+					"This spell allows you to inscribe your personal rune or mark, which can consist of no more than six characters. The writing can be visible or invisible. An arcane mark spell enables you to etch the rune upon any substance without harm to the material upon which it is placed. If an invisible mark is made, a detect magic spell causes it to glow and be visible, though not necessarily understandable.",
+					"",
+					"A creature with truesight or under the effects of the see invisibility spell can also see an invisible arcane mark. The mark cannot be dispelled, but it can be removed with another casting, by you or someone else, of arcane mark.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			},
+			{
+				"name": "Clothier's Closet",
+                "source": "Eberron: Spells",
+				"level": "2",
+				"school": "C",
+				"ritual": "YES",
+				"time": "1 minute",
+				"range": "Touch",
+				"components": "V, S, M (a gem worth at least 100gp)",
+				"duration": "1 hour",
+				"classes": "Bard",
+				"text": [
+					"When you and your companions need to attend a gale reception at the last minute, you need not despair over your clothing. When you cast clothier's closet, you conjure a 3-inch-diameter wooden rod up to 10 feet long between any two upright supports you choose. For example, you could summon the rod between two walls of a corridor or alcove. On the rod hang a number of outfits as determined by you, each of a size and type you specify while the spell is cast.",
+					"",
+					"The conjured rod can hold a variety of seperate outfits whose total price does not exceed 100 gp. The outfit types that you can specify include the following: artisan's outfit (1 gp), cleric's vestments (5 gp), cold weather outfit (8 gp), courtier's outfit (30 gp), entertainer's outfit (3 gp), explorer's outfit (10 gp), monk's outfit (5 gp), noble's outfit (75 gp), scholar's outfit (5 gp), or traveler's outift (1 gp).",
+					"",
+					"The conjured clothing is normal in all respects and does not radiate magic. Even after the duration elapses and the rod and hangers disappear, the clothes remain.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Destabilize",
+                "source": "Eberron: Spells",
+				"level": "0",
+				"school": "EV",
+				"time": "1 bonus action",
+				"range": "Touch",
+				"components": "S",
+				"duration": "1 round",
+				"classes": "Artificer (UA)",
+				"text": [
+					"You imbue an object you are holding with one of the following damage types: acid, cold, fire, lightning, or thunder. This turns it into a makeshift bomb for the duration that can be weaponized in one of two ways. As an action, it can be thrown onto the space of a creature within 60 feet, dealing 1d8 damage of the type you chose to all creatures within that space that fail a Dexterity saving throw (you can target multiple Tiny creatures if they all share the same 5-foot space). Or, if the infused object is a piece of ammunition, it can be fired from a weapon onto any creature's space within its long range, with the same result. Either way, the launched object is destroyed.",
+					"",
+					"The damage dealt increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			},
+			{
+				"name": "Distracting Shadows",
+                "source": "Eberron: Spells",
+				"level": "1",
+				"school": "EV",
+				"ritual": "YES",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V, M (a piece of coal)",
+				"duration": "8 hours",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"This spell causes an object to radiate distracting shadows in a 10 ft. radius. Casual scrutiny of an affected area doesn't reveal anything out of the ordinary; however, cracks, crannies, corners, hidden traps, and secret entrances or exits within the area become harder to spot.",
+					"",
+					"Creatures within the area or looking into it are subliminally confused by the distracting shadows, and have disadvantage on Investigation and Perception checks. However, the shadows do not provide sufficient concealment for a creature to make a Stealth check.",
+					"",
+					"At Higher levels: Increase the radius by 10 ft for each level and the duration by 4 hours.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			},
+			{
+				"name": "Detect Dragonmark",
+                "source": "Eberron: Spells",
+				"level": "1",
+				"school": "D",
+				"ritual": "NO",
+				"time": "1 minute",
+				"range": "60 feet",
+				"components": "V, S, M (a scale from a true dragon)",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Cleric, Sorcerer, Wizard",
+				"text": [
+					"You can sense the presence of dragonmarks. The amount of information you receive about a particual dragonmark depends on how long you study a particular area or subject.",
+					"",
+					"1st Round: Presence or absence of dragonmarks.",
+					"",
+					"2nd Round: Number of dragonmarks (on creatures or objects) in the area, and the type (abberant, least, lesser, greater or Siberys) of the most potent dragonmark.",
+					"",
+					"3rd Round: The location and type of each dragonmark. If the object or creatures bearing the dragonmarks are in line of sight, you can attempt Spellcraft checks to determine the name of the spell-like ability granted by the mark (see page 47 of the Eberron Campaign Setting for the appropriate DC). If you beat the DC by 5 or more, you also learn whether the mark's spell-like ability has any remaining uses for the day.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Embrace of Endless Day",
+                "source": "Eberron: Spells",
+				"level": "4",
+				"school": "C",
+				"ritual": "NO",
+				"time": "1 minute",
+				"range": "Touch",
+				"components": "V, S",
+				"duration": "until expended",
+				"classes": "Cleric, Paladin",
+				"text": [
+					"You imbue the target with positive energy which they can then release, in controlled amounts or all at once. They are bestowed with 3 points per caster level (maximum of 30).",
+					"",
+					"The target can then expend these points just like a Paladin's Lay on Hands ability (see Player's Handbook pg. 84).",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Energy Alteration",
+                "source": "Eberron: Spells",
+				"level": "1",
+				"school": "T",
+				"ritual": "YES",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "S, M (a 50gp alchemical oil)",
+				"duration": "10 minutes",
+				"classes": "Artificer (UA), Sorcerer, Warlock, Wizard",
+				"text": [
+					"You alter an item that employs an energy type or grants protection from an energy type, to employ or protect from another energy type. For example, you could change a flame-blade to a frost-brand for the duration of the spell, or a ring of resistance (acid) to a ring of resistance (force).",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Explosive Pinecone",
+                "source": "Eberron: Spells",
+				"level": "7",
+				"school": "T",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V, S, M (a pinecone)",
+				"duration": "1 minute",
+				"classes": "Druid",
+				"text": [
+					"You transform a pinecone into a devastating grenade. It functions as a splash weapon that can be hurled as far as 100 ft. A successful ranged spell attack is required to strike the intended target. Upon impact, the pinecone detonates, dealing 7d10 fire damage to all within a 20 ft. radius of the target.",
+					"",
+					"The target is not allowed a Dexterity save, but all others in the splash range can make a Dexterity saving throw for half-damage.",
+					"",
+					"For 1 minute after the explosion, the area is littered with shrapnel. Any creature moving through the area treats it as difficult terrain and takes 1d8 piercing damage per 5 feet moved within.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Force Hammer",
+                "source": "Eberron: Spells",
+				"level": "2",
+				"school": "EV",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "30 ft",
+				"components": "V, S",
+				"duration": "Instantaneous",
+				"classes": "Cleric, Druid, Sorcerer, Wizard",
+				"text": [
+					"Fire a ray of force at a single target, making a ranged spell attack. On a hit, the bolt deals 4d4 non-lethal force damage. If the target fails a Constitution save, it is knocked unconscious.",
+					"",
+					"This spell has no effect on nonliving creatures or objects. Creatures that are immune to nonlethal damage are also not effected, but do take force damage.",
+					"",
+                    "At Higher Levels +2d4 additional points of non-lethal damage and +1 to the save DC per spell-level above 2nd-level.",
+                    "",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Glimpse of Eternity",
+                "source": "Eberron: Spells",
+				"level": "5",
+				"school": "EN",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "30 ft",
+				"components": "V, S, M (a pinch of dust from an hourglass)",
+				"duration": "Concentration, up to 10 minutes",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You call upon the chaotic memories of Dolurrh, transferring the eternity of memories into the targets mind.",
+					"",
+					"The target takes 5d6 points of non-lethal damage. If the target fails a Wisdom saving throw, it is stunned for the duration of the spell and takes an additional 1d6 points of non-lethal damage per round (or 6d6 per minute if out of combst).",
+					"",
+                    "",
+                    "",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Hidden Ward",
+                "source": "Eberron: Spells",
+				"level": "1",
+				"school": "EN",
+				"ritual": "YES",
+				"time": "1 minute",
+				"range": "Touch",
+				"components": "V, S, M (powdered diamond worth 100gp)",
+				"duration": "24 hours",
+				"classes": "Bard, Sorcerer, Wizard",
+				"text": [
+					"This spell helps disguise the presence of other spells. When used, it increases the DC of detect magic, Investigation, or Perception checks on the magical aura you are hiding by your spellcasting ability modifier.",
+					"",
+					"This spell cannot be used to hide non-magical items or items that arent dependant on active spells (such as the aura of a +1 longsword.",
+					"",
+                    "At Higher Levels. Each additional slot above 1st-level adds one day to the duration of the spell.",
+                    "",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Induce Stasis",
+                "source": "Eberron: Spells",
+				"level": "0",
+				"school": "T",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V, S",
+				"duration": "Instantaneous",
+				"classes": "Artificer (UA), Wizard",
+				"text": [
+					"You touch a warforged creature that has 0 hit points. They immediately enter an inert state, becoming stable and unconscious indefinitely until damaged or healed.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Improvised Wand",
+                "source": "Eberron: Spells",
+				"level": "0",
+				"school": "EV",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "60 feet",
+				"components": "S, M (a spellcasting focus)",
+				"duration": "Instantaneous",
+				"classes": "Artificer (UA), Wizard",
+				"text": [
+					"Your spellcasting focus for this spell discharges a blast of energy toward the target. The target must succeed on a Dexterity saving throw or take 1d8 damage. The spell can inflict acid, cold, fire, lightning, necrotic, piercing, psychic, radiant, or thunder damage; when you first learn this cantrip, you choose two damage types and when you cast the spell, you choose which damage type available to you to use.",
+					"",
+					"The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8). At each of these levels, you may also select an additional damage type to add to your repertoire.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Know Direction",
+                "source": "Eberron: Spells",
+				"level": "0",
+				"school": "D",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V, S",
+				"duration": "Instantaneous",
+				"classes": "Artificer (UA), Druid",
+				"text": [
+					"When you finish casting this spell, you instantly know the direction of north from your current position. The spell is effective in any environment in which north exists, but it may not work in extraplanar settings. Your knowledge of north is correct at the moment the spell is finished casting, but you can get lost again within moments if you don't find some external reference point to help you keep track of direction.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Khyber Trap",
+                "source": "Eberron: Spells",
+				"level": "3",
+				"school": "A",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "20 feet",
+				"components": " S, M (Khyber dragonshard worth at least 100gp per hit die of the creatures)",
+				"duration": "Instantaneous",
+				"classes": "Sorcerer, Warlock, Wizard",
+				"text": [
+					"This spell draws upon the binding power of Khyber dragonshards to trap an extraplanar creature for a short duration. If the creature fails a Wisdom saving throw, it is drawn into the Khyber shard. It can take no actions inside the shard, though it can communicate if it is capable of telepathy. If the dragonshard containing the creature is broken, the creature is released.",
+					"",
+					"A single dragonshard can only hold one creature at a time.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Leap Into Animal",
+                "source": "Eberron: Spells",
+				"level": "2",
+				"school": "T",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "10 feet",
+				"components": "V, S",
+				"duration": "Concentration, up to 10 minutes",
+				"classes": "Druid, Ranger",
+				"text": [
+					"Leap into animal enables you to meld your body and up to 100 pounds of nonliving gear into a single willing animal (such as an animal companion). The animal must be your size category or larger. To any observer, you appear to leap and phase into the animal; you are gone, while the animal remains. For all intents and purposes, you no longer exist while merged with the animal, and you cannot be detected or affected by anything as long as you remain within it.",
+					"",
+					"While melded with the animal, you mentally direct its actions. You can make it attack, run, or take any other action it could normally physically accomplish. However, because you are directing the animal with your own intelligence, it can undertake actions normally beyond its own instincts (such as manipulating objects with its claws or mouth). Suicidal or self-destructive commands (including an order to attack a creature two or more size categories larger) are ignored. You receive direct sensory input from the creature using its normal senses and skill modifiers.",
+					"",
+                    "You cannot take any mental actions while within the animal other than directing it or dismissing the effect (such that you cannot manifest a psionic power or cast a spell, even if it has no components).",
+                    "",
+					"Injury to the animal has no effect on you. If the animal is killed, if the spell is dispelled or dismissed, or if the spell's duration expires, you appear (as if leaping forth from the animal) in an open space of your choice within 10 feet of the animal's position. If no open space exists, you are shunted to the nearest open space and take 1d6 points of damage per 10 feet so moved.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Legion's Shield of Faith",
+                "source": "Eberron: Spells",
+				"level": "4",
+				"school": "A",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "60 ft",
+				"components": " V, S, M (a small parchment with a bit of holy text written on it)",
+				"duration": "Concentration, up to 10 minutes",
+				"classes": "Artificer (UA), Cleric, Paladin",
+				"text": [
+					"As sheild of faith, except that it effects all allies within range.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Magecraft",
+                "source": "Eberron: Spells",
+				"level": "1",
+				"school": "D",
+				"ritual": "YES",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "S, M (a set of Artisan's tools you have proficiency with)",
+				"duration": "10 hours",
+				"classes": "Artificer (UA)",
+				"text": [
+					"When you cast this spell, you impart upon your chosen set of tools an intuitive insight in how best to be utilized by your hands. While you spend a day of downtime crafting an item associated with your chosen tool, you contribute 10 gp toward completing it instead of 5 gp, essentially doubling your progress. If multiple people are contributing to the crafting of a single item, you contribute the same amount of progress as two people working toward completion. The amount of raw materials needed to complete the item (half market value) does not change.",
+					"",
+					"At Higher Levels. If you cast this spell from a 5th level spell slot or higher, you can contribute 50 gp worth of progress toward the completion of a magic item after a day of work, doubling your progress as with mundane items.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Metamagic Item",
+                "source": "Eberron: Spells",
+				"level": "3",
+				"school": "D",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V, S",
+				"duration": "1 round/spell level",
+				"classes": "Artificer (UA)",
+				"text": [
+					"You temporarily apply a metamagic options to a spell trigger item, such as a wand, staff, or imbued item. See the Sorcerer's Metamagic ability in the Player's Handbook for metamagic options (pg. 102).",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Nature's Wrath",
+                "source": "Eberron: Spells",
+				"level": "4",
+				"school": "EV",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "100 feet.",
+				"components": "V, S",
+				"duration": "1 round/spell level",
+				"classes": "Druid, Ranger",
+				"text": [
+					"You call up the power of nature to smite your enemies. You create a 20-foot radius of damage. Creatures that are a part of the natural world are unaffected; aberrations, undead, and similar corruptions of nature are harmed by the spell.",
+					"",
+					"Animals, constructs, elementals, fey, outsiders with an elemental subtype (air, earth, fire, or water), oozes, plants, vermin, and inanimate objects are unharmed by the spell.",
+					"",
+                    "Aberrations take 4d8 points of damage, and are dazed for 1 round. A successful Wisdom saving throw reduces the damage to half and negates the daze effect.",
+                    "",
+					"At Higher Levels. If you cast this spell from a 5th level spell slot or higher, add another 1d8 damage per spell level.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Personal Weapon Augmentation",
+                "source": "Eberron: Spells",
+				"level": "1",
+				"school": "T",
+				"ritual": "NO",
+				"time": "1 bonus action",
+				"range": "Touch",
+				"components": "V",
+				"duration": "1 minute",
+				"classes": "Artificer (UA)",
+				"text": [
+					"You imbue one weapon (melee or ranged) with magical energy that augments it's power for the duration of the spell. Choose one of the effects below:",
+					"",
+					"Disrupting Weapon. +1d6 radiant damage, sheds bright light in 20-ft radius.",
+					"",
+                    "Flame Tongue. +1d6 fire damage, and you gain fire resistance.",
+                    "",
+                    "Frost Brand. +1d6 cold damage, and you gain cold resistance.",
+                    "",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Shockwave",
+                "source": "Eberron: Spells",
+				"level": "3",
+				"school": "EV",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "30 feet",
+				"components": "V, S, M (a small crystal sphere)",
+				"duration": "Instantaneous",
+				"classes": "Sorcerer, Warlock, Wizard",
+				"text": [
+					"Shockwave is excellent for dealing area-of-effect damage without permenantly harming anyone, like when needing a fireball in a crowded marketplace.",
+					"",
+					"The spell creates a burst of concussive force that disorients victims without causing andy permanent damage, dealing 4d4 non-lethal damage to every creature in a 30 ft. cube. If the target fails a Constitution saving throw, they are knocked unconscious. A successful save reduces the damage by half and does not knock them unconscious.",
+					"",
+                    "This spell has no effect on nonliving creatures or objects. Creatures that are immune to nonlethal damage are also not effected, but do take force damage.",
+                    "",
+                    "At Higher Levels +2d4 additional points of non-lethal damage and +1 to the save DC per spell-level above 2nd-level.",
+                    "",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Skill Enhancement",
+                "source": "Eberron: Spells",
+				"level": "1",
+				"school": "T",
+				"ritual": "NO",
+				"time": "1 bonus action",
+				"range": "Touch",
+				"components": "V",
+				"duration": "1 minute",
+				"classes": "Artificer (UA)",
+				"text": [
+					"You imbue an item with magical energy that grants a circumstantial bonus to a specific skill check (determined by the caster). This bonus grants the user +5 on any skill checks with that skill for the duration of the spell.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Rusting Grasp",
+                "source": "Eberron: Spells",
+				"level": "4",
+				"school": "T",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V, S",
+				"duration": "Instantaneous",
+				"classes": "Artificer (UA), Bard, Druid, Ranger, Warlock, Wizard",
+				"text": [
+					"You corrode one nonmagical ferrous metal object you touch. If the object isn't being worn or carried, your touch destroys a 3-foot cube of it. If the object is being worn or carried by a creature, make a melee spell attack against the creature. If the object you are trying to touch is the creature's armor or shield, you have advantage on the attack roll. On a hit, you affect the metal object as follows:",
+					"",
+					"If the object touched is either metal armor or a metal shield being worn or carried, its takes a permanent and cumulative -1d4 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed.",
+					"",
+                    "If the object touched is a weapon, the weapon takes a permanent and cumulative -1d4 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed.",
+                    "",
+                    "If the object touched is a piece of ammunition, it is destroyed.",
+                    "",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Rusting Fog",
+                "source": "Eberron: Spells",
+				"level": "6",
+				"school": "T",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "100 feet",
+				"components": "V, S",
+				"duration": "1 minute",
+				"classes": "Bard, Druid, Warlock, Wizard",
+				"text": [
+					"A 20 ft. radius cloud appears that corrodes any metal it touches. Nonmagical objects made of iron, iron alloys, or other ferrous metals take 1d4 points of damage per round of exposure. Armor effected loses 1d4 points of AC per round. Armor that is reduced to an AC of 10 or a sheild that drops to +0 is destroyed. Ferrous creatures within the fog cloud suffer the same damage. Magic items resist the fog.",
+					"",
+					"The cloud moves 5 ft. in a random direction determined by the DM each round on the turn of the caster.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Scry Trap",
+                "source": "Eberron: Spells",
+				"level": "5",
+				"school": "A",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V, S, M (powdered glass from a broken mirror)",
+				"duration": "1 hour",
+				"classes": "Bard, Cleric, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You ward a creature against scrying, granting it defenses capable of terribly wounding any would-be scryer. This lasts 1 hour times the casters spell ability modifier.",
+					"",
+					"If the subject of this spell comes within 10 feet of a sensor created by a scrying spell, the scry trap automatically activates. The caster of the scrying spell takes 8d6 points of psychic damage and is blinded for 1 minute. A successful Wisdom save halves the damage and negates the blindness.",
+					"",
+                    "In addition, the caster of the scrying spell must succeed on a concentration check of 10 + your spell ability modifier or the scrying spell is dispelled immediatly. The subject of a scry trap becomes aware when the spell triggers, although the subject gains no knowledge as to the nature of the scrying spell or its caster.",
+                    "",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Speaking Stones",
+                "source": "Eberron: Spells",
+				"level": "2",
+				"school": "T",
+				"ritual": "YES",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V, S",
+				"duration": "24 hours or until discharged",
+				"classes": "Sorcerer, Wizard",
+				"text": [ "",
+					"This spell allows you to fashion a magical link between two stones (or any other mundane, nonmagical objects weighing up to 1 pound each). This link allows each stone to pass a single message to the other, no matter how great the distance between them after the spell is first cast.Messages are not transmitted across planar boundaries. If the bearer of one speaking stone attempts to pass a message while the other stone is on another plane, the message rebounds and plays back on the original stone. This playback counts as that stone's single message transmission.",
+					"",
+					"No object can have more than one speaking stones spells cast upon it. A second speaking stones cast upon the same object ends the first spell.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Spell Snare",
+                "source": "Eberron: Spells",
+				"level": "3",
+				"school": "A",
+				"ritual": "YES",
+				"time": "1 minute",
+				"range": "Touch",
+				"components": "V, S, M (an eberron Dragonshard worth at least 25gp)",
+				"duration": "10 minutes",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"A spell snare takes advantage of an Eberron dragonshard's innate magical affinity, tuning the shard so that it readily absorbs the energy of a spell. The next spell or spelllike ability of 3rd level or lower that targets the bearer of the spell snare is absorbed into the dragonshard and has no effect. Only spells or spell-like abilities that affect a single target, or orb or ray spells directed at the bearer, can be absorbed. Once the spell snare has absorbed a spell, its magic expires and the dragonshard disintegrates. It requires no action to absorb a spell, but you must have the dragonshard in hand.",
+					"",
+					"A spell snare does not discriminate between harmful or beneficial spells, and will just as readily absorb a cure light wounds spell as vampiric touch (though a character could temporarily put away or set aside the spell snare to receive a beneficial spell from an ally).",
+					"",
+                    "A character can only benefit from one spell snare at any given time. If more than one affected shard is carried, they will all activate (and be destroyed) by the first spell to target the bearer.",
+                    "",
+                    "",
+                    "",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Toughen",
+                "source": "Eberron: Spells",
+				"level": "2",
+				"school": "T",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V, S",
+				"duration": "10 minutes",
+				"classes": "Artificer (UA)",
+				"text": [
+					"Grant a target resistance to one of the following damage types: bludgeoning, force, piercing, or slashing.",
+					"",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
+			{
+				"name": "Zephyr",
+                "source": "Eberron: Spells",
+				"level": "0",
+				"school": "T",
+				"ritual": "NO",
+				"time": "1 action",
+				"range": "30 feet",
+				"components": "V, S",
+				"duration": "Instantaneous",
+				"classes": "Artificer (UA), Bard, Cleric, Druid, Paladin, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You seize the air and compel it to create one of the following effects at a point you can see within range:",
+					"",
+					"One Medium or smaller creature that you choose must succeed on a Strength saving throw or be pushed up to 5 feet away from you.",
+					"",
+                    "You create a small blast of air capable of moving one object that is neither held nor carried and that weighs no more than 5 pounds. The object is pushed up to 10 feet away from you. It isn't pushed with enough force to cause damage.",
+                    "",
+                    "You create a harmless sensory affect using air, such as causing leaves to rustle, wind to slam shutters shut, or your clothing to ripple in a breeze.",
+                    "",
+					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
+				]
+			}, 
 		],
-		"_version": "5"
+		"_version": "6"
 	}
 }
