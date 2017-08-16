@@ -8789,7 +8789,7 @@ var spelldata = {
 			},
 		{
 				"name": "Arcane Mark",
-		                "source": "Eberron: Spells",
+		        "source": "Eberron: Spells",
 				"level": "0",
 				"school": "I",
 				"ritual": "YES",
@@ -8827,7 +8827,7 @@ var spelldata = {
 					"This spell can be found at http://homebrewery.naturalcrit.com/share/BJ67tYsIZ"
 				]
 			}, 
-		{
+			{
 				"name": "Destabilize",
                 "source": "Eberron: Spells",
 				"level": "0",
