@@ -19,7 +19,7 @@ Or: how to get every  monster into Roll20 with ease.
 2. Open the Roll20 game you want to import the monsters into.
 
 3. With the userscript installed, go to the gear icon and hit Import Monster. Use the following URL for the prompt that pops up:
-https://raw.githubusercontent.com/5egmegaanon/5etools/master/data/bestiary.json
+https://raw.githubusercontent.com/5egmegaanon/5etools/master/static/data/bestiary.json
 
 4. Let it run. Your journal will fill up with monsters. It's not too laggy but can take a long time because of how many monsters there are.
 

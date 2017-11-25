@@ -274,10 +274,10 @@ function usemonster (id) {
 		$(x).parent().siblings(".source").css("margin-right", "-4.8em");
 		$(x).remove();
 		return;
-		this.src = "img/default.png";
+		this.src = "static/img/default.png";
 	}
 
-	$("th#name").html("<span title=\""+origsource+"\" class='source source"+source+"'>"+source+"<br></span> <a href='img/"+source+"/"+name+".png' target='_blank'><img src='img/"+source+"/"+name+".png' class='token' onerror='imgError(this)'></a>"+name);
+	$("th#name").html("<span title=\""+origsource+"\" class='source source"+source+"'>"+source+"<br></span> <a href='static/img/"+source+"/"+name+".png' target='_blank'><img src='static/img/"+source+"/"+name+".png' class='token' onerror='imgError(this)'></a>"+name);
 
 	var size = parsesize (mon.size);
 	$("td span#size").html(size);
