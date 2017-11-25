@@ -630,7 +630,7 @@ img.token:before {
     right: 0;
     height: 5em;
     width: 5em;
-    background-image: url(../img/Gauth.png);
+    background-image: url(../static/img/Gauth.png);
     background-size: 5em 5em;
     background-repeat: no-repeat;
   }*/
